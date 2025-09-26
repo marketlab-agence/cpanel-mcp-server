@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "cpanel-mcp-server": {
+      "command": "python",
+      "args": ["cpanel_mcp_server.py"],
+      "env": {
+        "CPANEL_HOST": "${env:CPANEL_HOST}",
+        "CPANEL_USER": "${env:CPANEL_USER}",
+        "CPANEL_API_TOKEN": "${env:CPANEL_API_TOKEN}"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
