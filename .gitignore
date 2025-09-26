@@ -1,0 +1,20 @@
+Python bytecode and cache
+pycache/
+*.py[cod]
+*$py.class
+
+Environment files
+This is the most important line! It prevents your secrets from being committed.
+.env
+
+Virtual environment folders
+venv/
+.venv/
+
+IDE / Editor-specific folders
+.vscode/
+.idea/
+
+Docker cache
+.dockerignore
+docker-compose.override.yml
