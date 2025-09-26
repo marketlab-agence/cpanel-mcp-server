@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "cpanel-mcp-server": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-p",
+        "5001:5001",
+        "-e",
+        "CPANEL_HOST",
+        "-e",
+        "CPANEL_USER",
+        "-e",
+        "CPANEL_API_TOKEN",
+        "ghcr.io/votre-nom-utilisateur-github/cpanel-mcp-server:latest"
+      ],
+      "env": {
+        "CPANEL_HOST": "URL-DE-VOTRE-SERVEUR-WHM-ICI",
+        "CPANEL_USER": "VOTRE-UTILISATEUR-WHM-ICI",
+        "CPANEL_API_TOKEN": "VOTRE-JETON-API-WHM-ICI"
+      }
+    }
+  }
+}
