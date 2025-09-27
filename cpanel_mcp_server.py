@@ -1,5 +1,5 @@
 # cPanel Advanced MCP Server
-# Author: Gemini
+# Author: Aboubakrine
 # Version: 2.0.0
 # Description: A comprehensive Flask-based API gateway for cPanel & WHM.
 # This server provides secure, centralized access to both WHM API 1 for server

@@ -1,5 +1,5 @@
 # cPanel API Handler
-# Author: Gemini
+# Author: Aboubakrine
 # Version: 2.0.0 (MCP Integrated)
 # Description: An object-oriented class to encapsulate all communication
 # with the cPanel & WHM APIs, now with structured logging.
